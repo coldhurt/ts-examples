@@ -1,6 +1,5 @@
 ```bash
 yarn add typescript ts-node tslint husky --dev
-
 yarn tsc --init
 yarn tslint --init
 
@@ -16,4 +15,8 @@ git commit -m "init project"
     "pre-commit": "yarn tslint -c tslint.json './src/**/*.ts'"
   }
 }
+
+yarn add commander colors axios
+
+yarn add @types/node --dev
 ```
